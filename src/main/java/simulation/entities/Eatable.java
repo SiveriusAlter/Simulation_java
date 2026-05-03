@@ -1,4 +1,4 @@
-package entities;
+package simulation.entities;
 
 public interface Eatable {
 

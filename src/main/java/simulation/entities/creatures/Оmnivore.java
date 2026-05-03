@@ -1,6 +1,6 @@
-package entities.creatures;
+package simulation.entities.creatures;
 
-import entities.Eatable;
+import simulation.entities.Eatable;
 
 public class Оmnivore extends Creature implements Eatable {
 

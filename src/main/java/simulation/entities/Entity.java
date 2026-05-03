@@ -1,4 +1,4 @@
-package entities;
+package simulation.entities;
 
 public abstract class Entity {
 
@@ -15,4 +15,6 @@ public abstract class Entity {
     private void setName(String name) {
         this.name = name;
     }
+
+    public abstract void makeMove();
 }

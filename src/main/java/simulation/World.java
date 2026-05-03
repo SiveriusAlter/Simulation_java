@@ -1,9 +1,13 @@
-import entities.Entity;
+package simulation;
+
+import simulation.entities.Eatable;
+import simulation.entities.Entity;
 
 import java.awt.Point;
 import java.util.HashMap;
+import java.util.List;
 
-public class Map {
+public class World {
 
     private HashMap<Point, Entity> map;
 
@@ -14,5 +18,9 @@ public class Map {
 
     public void deleteEntity(Point point) {
         map.remove(point);
+    }
+
+    public List<Eatable> scan() {
+        return List.of();
     }
 }

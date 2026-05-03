@@ -1,4 +1,4 @@
-package entities.creatures.properties;
+package simulation.entities.creatures.properties;
 
 public enum Hp {
     LOW (50),
