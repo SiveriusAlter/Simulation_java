@@ -5,7 +5,7 @@ import simulation.entities.Eatable;
 public class Оmnivore extends Creature implements Eatable {
 
     public Оmnivore(String name, int speed, int hitPoints) {
-        super(name, speed, hitPoints);
+        super(name);
     }
 
     @Override
